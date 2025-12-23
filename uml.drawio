@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="kruMWryYYE8XgukZ0FUJ" name="Page-1">
-        <mxGraphModel dx="1939" dy="1393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1785" dy="1086" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -29,10 +29,10 @@
                     <mxGeometry x="1579" y="28" width="180" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;CompteCourant&amp;nbsp;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-decouvertAutorise : float&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirer(montant : float) : void&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-                    <mxGeometry x="1428" y="235" width="180" height="180" as="geometry"/>
+                    <mxGeometry x="1428" y="235" width="175" height="107" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;CompteEpargne &lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-tauxInteret : float&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;        +retirer(montant : float) : void&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-                    <mxGeometry x="1673" y="238" width="180" height="180" as="geometry"/>
+                    <mxGeometry x="1673" y="238" width="172" height="103" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Transaction&amp;nbsp;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-id : int&lt;br/&gt;&lt;br&gt;&amp;nbsp;-type : string&lt;br/&gt;&lt;br&gt;&amp;nbsp;-montant : float&lt;br/&gt;&lt;br&gt;&amp;nbsp;-date : DateTime&lt;br/&gt;&lt;br&gt;&amp;nbsp;-compte : Compte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
                     <mxGeometry x="1884" y="28" width="180" height="163" as="geometry"/>
