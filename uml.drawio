@@ -1,50 +1,47 @@
 <mxfile host="65bd71144e">
     <diagram id="kruMWryYYE8XgukZ0FUJ" name="Page-1">
-        <mxGraphModel dx="2078" dy="1229" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="-690" dy="1204" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="25" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Client&lt;/font&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;-int id&lt;br/&gt;&lt;br&gt;&amp;nbsp;-string nom&lt;br&gt;&amp;nbsp;-string prenom&lt;br&gt;&amp;nbsp;-string email&lt;br/&gt;&lt;br&gt;&amp;nbsp;-string telephone&lt;br/&gt;&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;table style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: left; width: 600px; height: 530px; border-collapse: collapse;&quot; border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot;&gt;&lt;tbody style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;tr style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;td style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 24px;&quot;&gt;&amp;nbsp;+getComptes() array&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;td style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot; align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;strokeWidth=21;perimeterSpacing=2;" vertex="1" parent="1">
-                    <mxGeometry x="-955" y="-516" width="600" height="530" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-216" y="447" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="116" y="-611" width="565" height="816" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" value="Client" style="text;strokeColor=none;fillColor=none;html=1;fontSize=37;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-                    <mxGeometry x="348.5" y="-580" width="100" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
-                    <mxGeometry x="112" y="-516" width="563" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Client&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-id : int&lt;br&gt;&amp;nbsp;-nom : string&lt;br&gt;&amp;nbsp;-prenom : string&lt;br&gt;&amp;nbsp;-email : string&lt;br&gt;&amp;nbsp;-telephone : string&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+getComptes() : List~Compte~&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+                <mxCell id="45" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Client&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-id : int&lt;br&gt;&amp;nbsp;-nom : string&lt;br&gt;&amp;nbsp;-prenom : string&lt;br&gt;&amp;nbsp;-email : string&lt;br&gt;&amp;nbsp;-telephone : string&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;+getComptes() : List~Compte~&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
                     <mxGeometry x="1564" y="-179" width="180" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="46" target="50">
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="46" target="50">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Compte : Abstract&amp;nbsp;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;#id : int&lt;br&gt;&amp;nbsp;#numero : string&lt;br&gt;&amp;nbsp;#solde : float&lt;br&gt;&amp;nbsp;#titulaire : Client&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+deposer(montant : float) : void&lt;br&gt;        +retirer(montant : float)* : void&lt;br&gt;        +getSolde() : float&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-                    <mxGeometry x="1579" y="28" width="180" height="180" as="geometry"/>
+                <mxCell id="46" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;i&gt;Compte&amp;nbsp;&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;#id : int&lt;br&gt;&amp;nbsp;#numero : string&lt;br&gt;&amp;nbsp;#solde : float&lt;br&gt;&amp;nbsp;#titulaire : string&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;+deposer(montant : float) : void&lt;br&gt;        +retirer(montant : float)* : void&lt;br&gt;        +getSolde() : float&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+                    <mxGeometry x="1564" y="19" width="180" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;CompteCourant&amp;nbsp;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-decouvertAutorise : float&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirer(montant : float) : void&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+                <mxCell id="48" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;CompteCourant&amp;nbsp;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-decouvertAutorise : float&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirer(montant : float) : void&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
                     <mxGeometry x="1428" y="235" width="175" height="107" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;CompteEpargne &lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;+retirer(montant : float) : void&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+                <mxCell id="49" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;CompteEpargne &lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;+retirer(montant : float) : void&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
                     <mxGeometry x="1673" y="238" width="262" height="51" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Transaction&amp;nbsp;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-id : int&lt;br/&gt;&lt;br&gt;&amp;nbsp;-type : string&lt;br/&gt;&lt;br&gt;&amp;nbsp;-montant : float&lt;br/&gt;&lt;br&gt;&amp;nbsp;-date : DateTime&lt;br/&gt;&lt;br&gt;&amp;nbsp;-compte : Compte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
-                    <mxGeometry x="1884" y="28" width="180" height="163" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.423;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;rounded=1;curved=0;strokeColor=default;" edge="1" parent="1" source="45" target="46">
+                <mxCell id="59" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;jumpStyle=none;" edge="1" parent="1" source="50" target="46">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.133;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="46">
+                <mxCell id="50" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Transaction&amp;nbsp;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;-id : int&lt;br/&gt;&lt;br&gt;&amp;nbsp;-type : string&lt;br/&gt;&lt;br&gt;&amp;nbsp;-montant : float&lt;br/&gt;&lt;br&gt;&amp;nbsp;-date : DateTime&lt;br/&gt;&lt;br&gt;&amp;nbsp;-compte : Compte&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" parent="1" vertex="1">
+                    <mxGeometry x="1866" y="36" width="180" height="163" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.133;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="48" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.591;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="49" target="46">
+                <mxCell id="56" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.58;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="49" target="46" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="endArrow=none;html=1;exitX=0.442;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="46">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1594" y="41" as="sourcePoint"/>
+                        <mxPoint x="1644" y="-9" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="Héritage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1497" y="196" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Héritage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1746" y="196" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
