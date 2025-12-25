@@ -9,6 +9,7 @@ class Client {
 
 
 
+
     public function __construct($nom,$prenom,$email,$telephone){
         $this->nom=$nom;
         $this->prenom=$prenom;
