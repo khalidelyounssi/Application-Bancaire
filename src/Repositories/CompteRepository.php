@@ -34,6 +34,22 @@ class CompteRepository {
         $stmt = $this->pdo->prepare("UPDATE comptes SET solde = ? WHERE id = ?");
         $stmt->execute([$nouveauSolde, $id]);
     }
+
+
+
+    public function delete($id) {
+    $compte = $this->findById($id); 
+    
+    if ($compte['solde'] == 0) {
+        $sql = "DELETE FROM comptes WHERE id = ?";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute([$id]);
+        echo "compte supprime.\n";
+    } else {
+        echo "mpossible! Le compte n'est pas vide .\n";
+    }
+}
+
     
     public function getAll() {
         return $this->pdo->query("SELECT * FROM comptes")->fetchAll(PDO::FETCH_ASSOC);

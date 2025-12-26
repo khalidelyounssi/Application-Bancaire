@@ -16,7 +16,7 @@ class ClientRepository {
       $existe = $stmtCheck->fetchColumn(); 
 
         if ($existe > 0) {
-            echo "⚠️ Erreur :Email dija existe\n";
+            echo " Erreur :Email dija existe\n";
             return;
         }
 
@@ -25,7 +25,7 @@ class ClientRepository {
         $stmt->execute([$c->getNom(), $c->getPrenom(), $c->getEmail(), $c->getTelephone()]);
         
         $c->setId($this->pdo->lastInsertId());
-        echo "✅ succes !\n";
+        echo " succes !\n";
     }
 
     public function delete($clientId) {
