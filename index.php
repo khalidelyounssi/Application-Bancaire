@@ -42,7 +42,8 @@ $repocompte->updateSolde($idCompte, $newSolde);
 $tran = new Transaction('retirer', $amount, $idCompte); 
 $repotransaction->add($tran);
 
-echo "✅ Solde  $newSolde $";
+echo "✅ Solde  $newSolde $ ";
+echo "<br>";
 
 
 
