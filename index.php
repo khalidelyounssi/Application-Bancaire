@@ -42,7 +42,7 @@ $repocompte->updateSolde($idCompte, $newSolde);
 $tran = new Transaction('retirer', $amount, $idCompte); 
 $repotransaction->add($tran);
 
-echo "✅ Kolchi daze mzyan! Solde jdid: $newSolde DH";
+echo "✅ Solde  $newSolde $";
 
 
 
